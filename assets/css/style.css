@@ -17,7 +17,7 @@
 #my-lan p{
   line-height: 30px;
 }
-#navbar-links a:hover{
+#navbar-links li a:hover{
   border-bottom: 2px solid blue;
   color: blue;
 }
@@ -93,4 +93,37 @@
   color: blue !important;
 }
 
+@media screen and (max-width: 991px) and (min-width: 300px) {
+  #my-logo {
+    width: 35% !important;
+  }
 
+  #navbar-links li a{
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  #landing-page {
+    font-size: 50px !important;
+  }
+  
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  #landing-page {
+    font-size: 40px !important;
+  }
+
+  #mycard {
+    margin-left: 110px !important;
+  }
+  
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+  #landing-page {
+    font-size: 40px !important;
+  }
+  
+}

@@ -18,7 +18,8 @@
 
 <body>
     <!-- navbar-start -->
-    <nav class="navbar navbar-expand-lg d-lg-block py-3 sticky-top shadow" style="background-color: white;">
+    <nav class="navbar navbar-expand-lg d-lg-block py-3 sticky-top"
+        style="background-color: white; box-shadow: 0 0 4px 0 #0000001c;">
         <div class="container">
             <img src="assets/imgs/logo.svg" id="my-logo" alt="">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -43,7 +44,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link">Pricing</a>
+                        <a class="nav-link" href="#">Pricing</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -52,15 +53,17 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Contact</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
 
                 <div class="pt-2 me-3">
-                    <h6><i class="bi bi-search"></i></h6>
+                    <h6><i class="bi bi-search d-lg-block d-none"></i></h6>
                 </div>
                 <form class="d-flex" role="search">
-                    <button type="button" class="btn btn-outline-primary rounded-0" style="font-weight:500;">Log
+                    <button type="button" class="btn btn-outline-primary d-lg-none rounded-0"
+                        style="font-weight:500;">Search</button>
+                    <button type="button" class="btn btn-outline-primary ms-3 rounded-0" style="font-weight:500;">Log
                         In</button>
                     <button type="button" class="btn btn-primary ms-3 rounded-0" id="my-trail"
                         style="font-weight:500;">Strat My Free
@@ -76,7 +79,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div id="my-lan" class="mt-md-5">
-                    <h1 class="fw-normal">Product Landing Page Templates</h1>
+                    <h1 class="fw-normal" id="landing-page">Product Landing Page Templates</h1>
                     <p class="mt-4 text-secondary">Product landing page templates from Unbounce can be used for any
                         online product. Use these
                         templates to describe the benefits of your product, show off your killer photos or videos, and
@@ -94,7 +97,7 @@
     <!-- cards-start -->
     <div class="container" id="anker-tags">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-xl-3 mb-5">
                 <div class="border-start sticky-top" id="left-side" style="z-index: auto; top: 20%;">
                     <div class="ps-4 pt-2">
                         <h6 class="my-tool">BY TOOL</h6>
@@ -125,7 +128,7 @@
                                     <h6>BY CAMPAIGN</h6>
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
 
@@ -250,11 +253,11 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-3">
-                <div class="card mb-5" style="height: 500px !important;">
+                
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
                     <div class="border-bottom" id="container">
-                        <img src="assets/imgs/2.jpg" class="card-img-top" alt="..." id="image">
+                        <img src="assets/imgs/2.jpg" class="card-img-top img-fluid" alt="..." id="image">
                         <div class="middle">
                             <div class="text">
                                 <h6 class="text-light" style="font-size: small !important; font-weight: normal;">LANDING
@@ -269,6 +272,7 @@
                             off your SaaS product. There’s plenty of
                             contrast, space for key benefits, a pricing grid, and more.</p>
                     </div>
+
                     <div class="px-3 py-4 d-flex">
                         <i class="bi bi-arrow-right"></i>
                         <a href="#" class="text-dark fw-bold mt-1 ms-3"
@@ -277,7 +281,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-5" style="height: 500px !important;">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
 
                     <div class="border-bottom" id="container">
                         <img src="assets/imgs/5.jpg" class="card-img-top" alt="..." id="image">
@@ -301,7 +305,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-5" style="height: 500px !important;">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
 
                     <div class="border-bottom" id="container">
                         <img src="assets/imgs/8.jpg" class="card-img-top" alt="..." id="image">
@@ -326,7 +330,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-5" style="height: 500px !important;">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
 
                     <div class="border-bottom" id="container">
                         <img src="assets/imgs/11.jpg" class="card-img-top" alt="..." id="image">
@@ -350,7 +354,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-5" style="height: 500px !important;">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
                     <div class="border-bottom" id="container">
                         <img src="assets/imgs/14.jpg" class="card-img-top" alt="..." id="image">
                         <div class="middle">
@@ -375,8 +379,8 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
-                <div class="card mb-5" style="height: 500px !important;">
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
 
                     <div class="border-bottom" id="container">
                         <img src="assets/imgs/3.jpg" class="card-img-top" alt="..." id="image">
@@ -403,7 +407,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-5" style="height: 500px !important;">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
                     <div class="border-bottom" id="container">
                         <img src="assets/imgs/6.jpg" class="card-img-top" alt="..." id="image">
                         <div class="middle">
@@ -428,7 +432,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-5" style="height: 500px !important;">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
                     <div class="border-bottom" id="container">
                         <img src="assets/imgs/9.jpg" class="card-img-top" alt="..." id="image">
                         <div class="middle">
@@ -453,7 +457,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-5" style="height: 500px !important;">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
                     <div class="border-bottom" id="container">
                         <img src="assets/imgs/12.jpg" class="card-img-top" alt="..." id="image">
                         <div class="middle">
@@ -477,7 +481,7 @@
                     </div>
                 </div>
 
-                <div class="card mb-5" style="height: 500px !important;">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
                     <div class="border-bottom" id="container">
                         <img src="assets/imgs/15.png" class="card-img-top" alt="..." id="image">
                         <div class="middle">
@@ -502,103 +506,115 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
-                <div class="card mb-5" style="height: 500px !important;">
-                    <div class="border-bottom" id="container">
-                        <img src="assets/imgs/4.jpg" class="card-img-top" alt="..." id="image">
-                        <div class="middle">
-                            <div class="text">
-                                <h6 class="text-light" style="font-size: small !important; font-weight: normal;">LANDING
-                                    PAGE TEMPLATE</h6>
+            <div class="col-xl-3 col-lg-4">
+                <div class="d-sm-flex d-lg-block">
+                    <div class="card mb-5" style="height: 500px; width: 250px;">
+                        <div class="border-bottom" id="container">
+                            <img src="assets/imgs/4.jpg" class="card-img-top" alt="..." id="image">
+                            <div class="middle">
+                                <div class="text">
+                                    <h6 class="text-light" style="font-size: small !important; font-weight: normal;">
+                                        LANDING
+                                        PAGE TEMPLATE</h6>
+                                </div>
                             </div>
                         </div>
+                        <div class="card-body">
+                            <p class="card-title py-2">O-Coming Soon</p>
+                            <p class="card-text text-secondary" style="font-size: small;">Need to build excitement for a
+                                new
+                                product or service? With this simple
+                                template, you can get your landing page live in minutes.</p>
+                        </div>
+                        <div class="px-3 py-4 d-flex">
+                            <i class="bi bi-arrow-right"></i>
+                            <a href="#" class="text-dark fw-bold mt-1 ms-3"
+                                style="text-decoration: none; font-size: x-small; letter-spacing: 1px;">VIEW
+                                THIS TEMPLATE</a>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <p class="card-title py-2">O-Coming Soon</p>
-                        <p class="card-text text-secondary" style="font-size: small;">Need to build excitement for a new
-                            product or service? With this simple
-                            template, you can get your landing page live in minutes.</p>
-                    </div>
-                    <div class="px-3 py-4 d-flex">
-                        <i class="bi bi-arrow-right"></i>
-                        <a href="#" class="text-dark fw-bold mt-1 ms-3"
-                            style="text-decoration: none; font-size: x-small; letter-spacing: 1px;">VIEW
-                            THIS TEMPLATE</a>
+
+                    <div class="card mb-5 ms-sm-4 ms-md-5 ms-lg-0" style="height: 500px; width: 250px;" id="mycard">
+                        <div class="border-bottom" id="container">
+                            <img src="assets/imgs/7.jpg" class="card-img-top" alt="..." id="image">
+                            <div class="middle">
+                                <div class="text">
+                                    <h6 class="text-light" style="font-size: small !important; font-weight: normal;">
+                                        LANDING
+                                        PAGE TEMPLATE</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title py-md-2">Produkto</p>
+                            <p class="card-text text-secondary" style="font-size: small;">A detailed click-through page
+                                for
+                                promoting any physical or digital product. Easily integrates with Shopify, and includes
+                                a
+                                video widget and product review section.</p>
+                        </div>
+                        <div class="px-3 py-4 d-flex">
+                            <i class="bi bi-arrow-right"></i>
+                            <a href="#" class="text-dark fw-bold mt-1 ms-3"
+                                style="text-decoration: none; font-size: x-small; letter-spacing: 1px;">VIEW
+                                THIS TEMPLATE</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card mb-5" style="height: 500px !important;">
-                    <div class="border-bottom" id="container">
-                        <img src="assets/imgs/7.jpg" class="card-img-top" alt="..." id="image">
-                        <div class="middle">
-                            <div class="text">
-                                <h6 class="text-light" style="font-size: small !important; font-weight: normal;">LANDING
-                                    PAGE TEMPLATE</h6>
+                <div  class="d-sm-flex d-lg-block">
+                    <div class="card mb-5" style="height: 500px; width: 250px;">
+
+                        <div class="border-bottom" id="container">
+                            <img src="assets/imgs/10.jpg" class="card-img-top" alt="..." id="image">
+                            <div class="middle">
+                                <div class="text">
+                                    <h6 class="text-light" style="font-size: small !important; font-weight: normal;">
+                                        LANDING
+                                        PAGE TEMPLATE</h6>
+                                </div>
                             </div>
                         </div>
+                        <div class="card-body">
+                            <p class="card-title py-md-2">Product Announcement</p>
+                            <p class="card-text text-secondary" style="font-size: small;">Does your new product or
+                                feature
+                                need a little love? Let your visitors and existing customers know to try it.</p>
+                        </div>
+                        <div class="px-3 py-4 d-flex">
+                            <i class="bi bi-arrow-right"></i>
+                            <a href="#" class="text-dark fw-bold mt-1 ms-3"
+                                style="text-decoration: none; font-size: x-small; letter-spacing: 1px;">VIEW
+                                THIS TEMPLATE</a>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <p class="card-title py-md-2">Produkto</p>
-                        <p class="card-text text-secondary" style="font-size: small;">A detailed click-through page for
-                            promoting any physical or digital product. Easily integrates with Shopify, and includes a
-                            video widget and product review section.</p>
-                    </div>
-                    <div class="px-3 py-4 d-flex">
-                        <i class="bi bi-arrow-right"></i>
-                        <a href="#" class="text-dark fw-bold mt-1 ms-3"
-                            style="text-decoration: none; font-size: x-small; letter-spacing: 1px;">VIEW
-                            THIS TEMPLATE</a>
+
+                    <div class="card mb-5  ms-sm-4 ms-md-5 ms-lg-0" style="height: 500px; width: 250px;" id="mycard">
+                        <div class="border-bottom" id="container">
+                            <img src="assets/imgs/13.jpg" class="card-img-top" alt="..." id="image">
+                            <div class="middle">
+                                <div class="text">
+                                    <h6 class="text-light" style="font-size: small !important; font-weight: normal;">
+                                        LANDING
+                                        PAGE TEMPLATE</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title py-md-2">Harbor (Business Services)</p>
+                            <p class="card-text text-secondary" style="font-size: small;">Your business service needs a
+                                template. Why not try Harbor’s eye-catching design featuring clear, large text?</p>
+                        </div>
+                        <div class="px-3 py-4 d-flex">
+                            <i class="bi bi-arrow-right"></i>
+                            <a href="#" class="text-dark fw-bold mt-1 ms-3"
+                                style="text-decoration: none; font-size: x-small; letter-spacing: 1px;">VIEW
+                                THIS TEMPLATE</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card mb-5" style="height: 500px !important;">
-
-                    <div class="border-bottom" id="container">
-                        <img src="assets/imgs/10.jpg" class="card-img-top" alt="..." id="image">
-                        <div class="middle">
-                            <div class="text">
-                                <h6 class="text-light" style="font-size: small !important; font-weight: normal;">LANDING
-                                    PAGE TEMPLATE</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title py-md-2">Product Announcement</p>
-                        <p class="card-text text-secondary" style="font-size: small;">Does your new product or feature
-                            need a little love? Let your visitors and existing customers know to try it.</p>
-                    </div>
-                    <div class="px-3 py-4 d-flex">
-                        <i class="bi bi-arrow-right"></i>
-                        <a href="#" class="text-dark fw-bold mt-1 ms-3"
-                            style="text-decoration: none; font-size: x-small; letter-spacing: 1px;">VIEW
-                            THIS TEMPLATE</a>
-                    </div>
-                </div>
-
-                <div class="card mb-5" style="height: 500px !important;">
-                    <div class="border-bottom" id="container">
-                        <img src="assets/imgs/13.jpg" class="card-img-top" alt="..." id="image">
-                        <div class="middle">
-                            <div class="text">
-                                <h6 class="text-light" style="font-size: small !important; font-weight: normal;">LANDING
-                                    PAGE TEMPLATE</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title py-md-2">Harbor (Business Services)</p>
-                        <p class="card-text text-secondary" style="font-size: small;">Your business service needs a
-                            template. Why not try Harbor’s eye-catching design featuring clear, large text?</p>
-                    </div>
-                    <div class="px-3 py-4 d-flex">
-                        <i class="bi bi-arrow-right"></i>
-                        <a href="#" class="text-dark fw-bold mt-1 ms-3"
-                            style="text-decoration: none; font-size: x-small; letter-spacing: 1px;">VIEW
-                            THIS TEMPLATE</a>
-                    </div>
-                </div>
-
-                <div class="card mb-5" style="height: 500px !important;">
+                <div class="card mb-5" style="height: 500px; width: 250px;">
                     <div class="border-bottom" id="container">
                         <img src="assets/imgs/16.jpg" class="card-img-top" alt="..." id="image">
                         <div class="middle">
@@ -622,7 +638,7 @@
                     </div>
                 </div>
             </div>
-
+            
         </div>
     </div>
     <!-- cards-end -->
@@ -722,7 +738,7 @@
 
 
 
- 
+
 
 
 
