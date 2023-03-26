@@ -141,3 +141,12 @@
   }
   
 }
+
+@media screen and (min-width: 280px) and (max-width: 382px) {
+  #buttons{
+    font-size: small !important;
+    
+  }
+  
+}
+
