@@ -127,3 +127,17 @@
   }
   
 }
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  #foot-link{
+    margin: 30px 0 0 0;
+  }
+  
+}
+
+@media screen and (min-width: 300px) and (max-width: 575px) {
+  #foot-link{
+   margin-left: 50px;
+  }
+  
+}
