@@ -145,10 +145,12 @@
 @media screen and (min-width: 280px) and (max-width: 382px) {
   #buttons{
     font-size: small !important;
+    padding:0px 5px;
     
   }
   
 }
+
 
 @media screen and (min-width: 28px) and (max-width: 575px) {
   #my-cards{
